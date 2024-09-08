@@ -1,0 +1,1 @@
+Activity 2 - This program is to make a program using 'double' that I learned in class. First, I set the total amount and tax. Then, I got state and county taxes. And at the end, I show you the value I got.
