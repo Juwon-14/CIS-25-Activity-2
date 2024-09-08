@@ -1,0 +1,28 @@
+// Juwon Hong
+//6/9/2024
+//CIS 25
+
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    // Declare and initialize variables
+    double totalMoney = 95000.0; // The money from the store
+    double stateTaxRate = 0.04; //estate tax is 4%
+    double countyTaxRate = 0.02; //county tax is 2%
+
+    // This part fine both stateTax and countyTax
+    double stateTax = totalMoney * stateTaxRate;
+    double countyTax = totalMoney * countyTaxRate;
+
+    // This part is the totalTax, totalTax= stateTax + countryTax
+    double totalTax = stateTax + countyTax;
+
+    // Final part: showing the all of the result about total money, stateTax and countyTax
+    std::cout << "Total: " << totalMoney << std::endl;
+    std::cout << "State Tax (4%): $" << stateTax << std::endl;
+    std::cout << "County Tax (2%): $" << countyTax << std::endl;
+    std::cout << "Total Tax: $" << totalTax << std::endl;
+
+    return 0;
+}
